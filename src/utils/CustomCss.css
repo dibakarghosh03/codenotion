@@ -1,0 +1,21 @@
+/* Custom styles for Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color: #ccc; /* Default bullet color */
+    opacity: 1; /* Remove default transparency */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff0000; /* Active bullet color */
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #d11010; /* Adjust color as needed */
+}
+
+@media (max-width: 1024px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
