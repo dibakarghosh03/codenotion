@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(   
     cors({
-        origin: "https://codenotion-seven.vercel.app/",
+        origin: "https://codenotion-seven.vercel.app",
         credentials: true,
     })
 );
