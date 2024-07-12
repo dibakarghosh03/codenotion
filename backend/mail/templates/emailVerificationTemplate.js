@@ -66,7 +66,7 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
+			<a href="https://codenotion-seven.vercel.app/"><img class="logo"
 					src="https://res.cloudinary.com/dh3jwmbnv/image/upload/v1719851046/CodeNotion/rfixypjhuvlxmyd0kxkv.png" alt="CodeNotion Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">

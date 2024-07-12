@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
                                     },
                                     {new:true});
     
-        const url = `http://localhost:3000/resetPassword/${token}`;
+        const url = `https://codenotion-seven.vercel.app/resetPassword/${token}`;
     
         await mailSender(email, "Password Reset", `Password reset link : ${url}`);
     
